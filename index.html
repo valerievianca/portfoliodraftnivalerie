@@ -1,39 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valerie's Portfolio</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:pink;
+    color:rgb(14, 13, 13);
+}
+
+
+header{
+    background:hsl(217, 69%, 75%);
+    padding:15px 40px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:black;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.profile{
+    margin-top:20px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+main{
+    padding:40px;
+}
+
+
+
+.card{
+    background:hsl(217, 69%, 75%);
+    padding:25px;
+    margin:25px auto;
+    border-radius:10px;
+    max-width:700px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+h3{
+    color:#38bdf8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:hsl(217, 69%, 75%);
+    margin-top:40px;
+}
+
+</style>
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h2 class="logo">Portfolio ni sai</h2>
-            <ul>
+
+<header>
+<nav>
+
+<h2 class="logo">My Portfolio</h2>
+
+<ul>
 <li><a href="#">Home</a></li>
 <li><a href="#">Quiz</a></li>
 <li><a href="#">Activity</a></li>
+</ul>
 
-            </ul>
+</nav>
+</header>
 
-
-        </nav>
-    </header>
-<div>
-    <img src="hi po.jpg" alt="heeeeeloooo">
-
-</div>
-<div>
-<p><Strong>Name:</Strong>Lealene</p>
-<p><strong>Student number:</strong> ID: 251100666</p>
-<p><strong>Course and Section: </strong> BSCS-1D</p>
+<div class="profile">
+<img src="larawan.jpg" alt="magandang dilag">
 </div>
 
-<div>
-    <h3> About Me</h3>
-    <p> i am a computer science student</p>
+<main>
+
+
+<div class="card">
+<p><strong>Name:</strong> Lealene</p>
+<p><strong>Student Number:</strong> 251100666</p>
+<p><strong>Course and Section:</strong> BSCS-1D</p>
+</div>
+
+<div class="card">
+<h3>About Me</h3>
+
+<p>
+I am a Computer Science student who is passionate about learning technology and programming. 
+I enjoy exploring new ideas and improving my skills in coding and design.
+</p>
 
 </div>
+
+</main>
+
+<footer>
+<p>Valerie's Portfolio</p>
+</footer>
 
 </body>
 </html>
