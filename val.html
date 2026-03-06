@@ -1,40 +1,117 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lealene's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lealene's Portfolio</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+header{
+    background:#571010;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* MAIN CONTENT */
+
+.container{
+    text-align:center;
+    margin-top:40px;
+}
+
+.profile img{
+    width:150px;
+    border-radius:50%;
+    border:4px solid #571010;
+}
+
+.info{
+    margin-top:20px;
+}
+
+.about{
+    margin-top:30px;
+    padding:20px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    background:white;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+</style>
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h2 class="logo"> My Portfolio </h2>
-            <ul>
+
+<header>
+<nav>
+<h2 class="logo">My Portfolio</h2>
+
+<ul>
 <li><a href="#">Home</a></li>
 <li><a href="#">Quiz</a></li>
 <li><a href="#">Activity</a></li>
+</ul>
 
-            </ul>
+</nav>
+</header>
 
 
-        </nav>
-    </header>
-<div>
-    <img src="yesdabest.jpg" alt="pic ni vakl ganda" style="width: 150px">
+<div class="container">
 
-</div>
-<div>
-<p><Strong>Name:</Strong>Valerie Vianca</p>
-<p><strong>Student number:</strong>251100698</p>
-<p><strong>Course and Section: </strong> BSCS-1D</p>
+<div class="profile">
+<img src="yesdabest.jpg" alt="profile picture">
 </div>
 
-<div>
-    <h3> About Me</h3>
-    <p> I'm Valerie Vianca Belen, an 19-year-old first-year Computer Science student at CvSU Silang Campus. <br>
-        I chose to pursue Computer Science because I want to create my own games in the future also it's demand </p>
+<div class="info">
+<p><strong>Name:</strong> Valerie Vianca</p>
+<p><strong>Student Number:</strong> 251100698</p>
+<p><strong>Course and Section:</strong> BSCS-1D</p>
+</div>
 
+<div class="about">
+<h3>About Me</h3>
 
+<p>
+I'm Valerie Vianca Belen, a 19-year-old first-year Computer Science student at CvSU Silang Campus.
+I chose to pursue Computer Science because I want to create my own games in the future and because it is an in-demand field.
+</p>
+
+</div>
 
 </div>
 
